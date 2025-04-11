@@ -4,7 +4,7 @@ Recursively expands LaTeX files by inlining included files and removing comments
 
 ## Usage
 
-```python latex_expander.py input.tex output.tex [options]```
+```python main.py input.tex output.tex [options]```
 
 ### Options
 
