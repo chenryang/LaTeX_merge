@@ -121,7 +121,6 @@ def main():
     parser = argparse.ArgumentParser(description='Recursively expand LaTeX files, remove comments, and delete temporary files')
     parser.add_argument('input_file', help='Input LaTeX file')
     parser.add_argument('output_file', help='Output expanded LaTeX file')
-    parser.add_argument('--bib-dir', help='Bibliography directory', default='')
     parser.add_argument('--delete-tex', action='store_true', help='Delete other .tex files (keep by default)')
     parser.add_argument('--delete-unused-pdf', action='store_true', help='Delete unused PDF files (keep all by default)')
     args = parser.parse_args()
